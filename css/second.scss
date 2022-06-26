@@ -1,0 +1,23 @@
+@for $i from 0 through 8 {
+    #swiper2-slide#{$i} {
+        background: url('../Dress_pro_images/RENAME-#{$i}.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+@for $i from 0 through 9 {
+    #slide#{$i} {
+        background: url('../Dress_pro_images/RENAME-#{$i}.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+}
+@for $i from 1 through 4 {
+    #smocked#{$i} {
+        background: url('../Dress_pro_images/RENAME-#{$i}.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+}
