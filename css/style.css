@@ -85,7 +85,7 @@ nav a:active {
   nav {
     flex-direction: column;
     background: white;
-    height: fit-content;
+    height: max-content;
   }
   .brand_and_toggle {
     width: 100%;
@@ -140,9 +140,9 @@ nav a:active {
 /* END OF NAVBAR */
 
 /* BEGINNING OF SECOND LAYER */
-.second_layer {
-  /* border: 2px solid red; */
-}
+/* .second_layer {
+  border: 2px solid red;
+} */
 
 .swiper1 {
   width: 100%;
