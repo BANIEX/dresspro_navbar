@@ -1,0 +1,84 @@
+.mini_skirts_image_section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mini_skirts_image_container{
+    width: 33.33%;
+    height: 400px;
+    
+   
+    text-align: center;
+}
+
+.mini_skirts_image{
+    /* margin: 0px auto; */
+    width: 95%;
+    height: 380px;
+    background: url("./Mini_skirts_images/RENAME-4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.mini_skirts_info{
+    /* border: 2px solid red; */
+}
+.mini_skirts_nav_display{
+    /* border: 2px solid red; */
+    /* margin: 0px auto; */
+    text-align: center;
+    line-height: 25px;
+    background: rgb(218, 171, 187);
+    
+}
+.mini_skirts_text_display{
+    font-size: 3rem;
+    font-family: "Cinzel", serif;
+    margin-top: 4.5rem;
+}
+.buy_now{
+    /* position: absolute; */
+    /* top: 10px; */
+    border: 2px solid red;
+    margin-top: 330px;
+    font-weight: 600;
+    /* display: none; */
+
+}
+.image_identity{
+    visibility: hidden;
+}
+.mini_skirts_image_hover{
+    display: none;
+}
+
+
+
+@media screen and (max-width: 990px) {
+    .mini_skirts_image_container{
+        width: 50%;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .mini_skirts_image_container{
+        width: 100%;
+    }
+    .mini_skirts_image{
+        width: 100%;
+    }
+    .mini_skirts_text_display{
+        font-size: 2rem;
+    }
+    
+}
+
+@for $i from 0 through 36 {
+    #mini_skirts_image#{$i} {
+        background: url('./Mini_skirts_images/RENAME-#{$i}.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+}

@@ -75,6 +75,8 @@ const swiper2 = new Swiper(".second-swiper", {
 });
 
 let on_hover_display = document.getElementsByClassName("on_hover_display");
+
+
 for (let i = 0; i < on_hover_display.length; i++) {
   on_hover_display[i].id = `on_hover_display${i}`;
 
