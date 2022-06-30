@@ -40,11 +40,18 @@
 .buy_now{
     /* position: absolute; */
     /* top: 10px; */
-    border: 2px solid red;
-    margin-top: 330px;
-    font-weight: 600;
+    // border: 2px solid red;
+    margin-top: 334px;
+    font-weight: 800;
+    color: white;
+    background: rgb(131, 126, 126);
+    opacity: 0.8;
+    cursor: pointer;
     /* display: none; */
 
+}
+.buy_now:hover{
+    color: rgb(236, 90, 139);
 }
 .image_identity{
     visibility: hidden;
