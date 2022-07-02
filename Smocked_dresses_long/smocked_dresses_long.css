@@ -1,0 +1,301 @@
+.smocked_dresses_long_image_section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.smocked_dresses_long_image_container {
+  width: 33.33%;
+  height: 400px;
+  text-align: center;
+}
+
+.smocked_dresses_long_image {
+  /* margin: 0px auto; */
+  width: 95%;
+  height: 380px;
+  background: url("./smocked_dresses_long_images/RENAME-4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.smocked_dresses_long_info {
+  /* border: 2px solid red; */
+}
+
+.smocked_dresses_long_nav_display {
+  /* border: 2px solid red; */
+  /* margin: 0px auto; */
+  text-align: center;
+  line-height: 25px;
+  background: rgb(218, 171, 187);
+}
+
+.smocked_dresses_long_text_display {
+  font-size: 3rem;
+  font-family: "Cinzel", serif;
+  margin-top: 4.5rem;
+}
+
+.buy_now {
+  /* position: absolute; */
+  /* top: 10px; */
+  margin-top: 334px;
+  font-weight: 800;
+  color: white;
+  background: rgb(131, 126, 126);
+  opacity: 0.8;
+  cursor: pointer;
+  /* display: none; */
+}
+
+.buy_now:hover {
+  color: rgb(236, 90, 139);
+}
+
+.image_identity {
+  visibility: hidden;
+}
+
+.smocked_dresses_long_image_hover {
+  display: none;
+}
+
+@media screen and (max-width: 990px) {
+  .smocked_dresses_long_image_container {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .smocked_dresses_long_image_container {
+    width: 100%;
+  }
+
+  .smocked_dresses_long_image {
+    width: 100%;
+  }
+
+  .smocked_dresses_long_text_display {
+    font-size: 2rem;
+  }
+}
+#smocked_dresses_long_image0 {
+  background: url("./smocked_dresses_long_images/RENAME-0.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image1 {
+  background: url("./smocked_dresses_long_images/RENAME-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image2 {
+  background: url("./smocked_dresses_long_images/RENAME-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image3 {
+  background: url("./smocked_dresses_long_images/RENAME-3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image4 {
+  background: url("./smocked_dresses_long_images/RENAME-4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image5 {
+  background: url("./smocked_dresses_long_images/RENAME-5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image6 {
+  background: url("./smocked_dresses_long_images/RENAME-6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image7 {
+  background: url("./smocked_dresses_long_images/RENAME-7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image8 {
+  background: url("./smocked_dresses_long_images/RENAME-8.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image9 {
+  background: url("./smocked_dresses_long_images/RENAME-9.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image10 {
+  background: url("./smocked_dresses_long_images/RENAME-10.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image11 {
+  background: url("./smocked_dresses_long_images/RENAME-11.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image12 {
+  background: url("./smocked_dresses_long_images/RENAME-12.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image13 {
+  background: url("./smocked_dresses_long_images/RENAME-13.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image14 {
+  background: url("./smocked_dresses_long_images/RENAME-14.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image15 {
+  background: url("./smocked_dresses_long_images/RENAME-15.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image16 {
+  background: url("./smocked_dresses_long_images/RENAME-16.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image17 {
+  background: url("./smocked_dresses_long_images/RENAME-17.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image18 {
+  background: url("./smocked_dresses_long_images/RENAME-18.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image19 {
+  background: url("./smocked_dresses_long_images/RENAME-19.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image20 {
+  background: url("./smocked_dresses_long_images/RENAME-20.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image21 {
+  background: url("./smocked_dresses_long_images/RENAME-21.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image22 {
+  background: url("./smocked_dresses_long_images/RENAME-22.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image23 {
+  background: url("./smocked_dresses_long_images/RENAME-23.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image24 {
+  background: url("./smocked_dresses_long_images/RENAME-24.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image25 {
+  background: url("./smocked_dresses_long_images/RENAME-25.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image26 {
+  background: url("./smocked_dresses_long_images/RENAME-26.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image27 {
+  background: url("./smocked_dresses_long_images/RENAME-27.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image28 {
+  background: url("./smocked_dresses_long_images/RENAME-28.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image29 {
+  background: url("./smocked_dresses_long_images/RENAME-29.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image30 {
+  background: url("./smocked_dresses_long_images/RENAME-30.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image31 {
+  background: url("./smocked_dresses_long_images/RENAME-31.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image32 {
+  background: url("./smocked_dresses_long_images/RENAME-32.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image33 {
+  background: url("./smocked_dresses_long_images/RENAME-33.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image34 {
+  background: url("./smocked_dresses_long_images/RENAME-34.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image35 {
+  background: url("./smocked_dresses_long_images/RENAME-35.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#smocked_dresses_long_image36 {
+  background: url("./smocked_dresses_long_images/RENAME-36.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=smocked_dresses_long.css.map */
