@@ -83,7 +83,7 @@
 
 @for $i from 0 through 36 {
     #mini_skirts_image#{$i} {
-        background: url('./Mini_skirts_images/RENAME-#{$i}.jpg');
+        background: url('./mini_skirts_images/RENAME-#{$i}.jpg');
         background-size: cover;
         background-repeat: no-repeat;
 
