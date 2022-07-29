@@ -293,6 +293,7 @@ nav a:active {
 .specifics {
   height: 100%;
   width: 95%;
+  /* margin: 0 auto; */
   /* border: 2px solid red; */
 }
 .specifics_more {
@@ -324,7 +325,10 @@ nav a:active {
     width: 50%;
   }
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
+  .specifics{
+    margin: 0 auto;
+  }
   .specifics_content {
     display: flex;
     flex-direction: column;
