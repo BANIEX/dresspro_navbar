@@ -338,6 +338,20 @@ nav a:active {
   .specifics_container {
     width: 100%;
   }
+  /* div ul:not(:first-child){
+    background-color: #900;
+ } */
+ .specifics_second_div_container,
+ .specifics_third_div_container,
+ .specifics_fourth_div_container{
+  display: none;
+ }
+
+
+
+
+
+
 }
 
 .row {
