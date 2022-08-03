@@ -347,11 +347,6 @@ nav a:active {
   display: none;
  }
 
-
-
-
-
-
 }
 
 .row {
@@ -368,6 +363,8 @@ nav a:active {
 }
 .column {
   padding: 1em;
+  width: 33.3%;
+  /* height: 200px; */
 }
 .card {
   padding: 3.1em 1.25em;
@@ -380,7 +377,14 @@ nav a:active {
   transition: 0.5s;
   cursor: pointer;
 }
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 480px) {
+  
+  .row {
+    flex-direction: column;
+  }
+  .column {
+    width: 100%;
+  }
   .card {
     padding: 3.1em;
   }
@@ -425,13 +429,16 @@ nav a:active {
 }
 @media screen and (min-width: 768px) {
   section {
-    padding: 1em 7em;
+    padding: 1em;
   }
+
+  
 }
 @media screen and (min-width: 992px) {
   section {
     padding: 1em;
   }
+
   .card {
     padding: 5em 2em;
   }
