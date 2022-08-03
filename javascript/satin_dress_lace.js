@@ -1,10 +1,12 @@
 no_of_satin_dress_lace_images = 36;
+const whatsapp_phone_number = '+2347039999740'
+
 
 
 let satin_dress_lace_image_section = document.getElementsByClassName("satin_dress_lace_image_section")[0];
 
 
-for(let i = 0; i < no_of_satin_dress_lace_images; i++){
+for(let i = 1; i <= no_of_satin_dress_lace_images; i++){
         
     let satin_dress_lace_image_container = document.createElement("div");
     satin_dress_lace_image_container.id = `satin_dress_lace_image_container${i}`;
@@ -22,7 +24,10 @@ for(let i = 0; i < no_of_satin_dress_lace_images; i++){
     image_identity.id = `image_identity${i}`;
     image_identity.className = 'image_identity';
 
-    let image_identity_text = document.createTextNode(`IMS10-${i}`);
+
+    let image_ID = `SAT10${i}`
+
+    let image_identity_text = document.createTextNode(image_ID);
 
     image_identity.appendChild(image_identity_text);
 
@@ -30,9 +35,16 @@ for(let i = 0; i < no_of_satin_dress_lace_images; i++){
     buy_now.id = `buy_now${i}`;
     buy_now.className = `buy_now`;
 
+
+    let buy_now_link = document.createElement('a')
+    buy_now_link.href =  `http://wa.me/${whatsapp_phone_number}?text=Hi, I'm interested in purchasing this product with ID:   ${image_ID} `
+                  
+
     let buy_now_text = document.createTextNode("BUY NOW");
 
-    buy_now.appendChild(buy_now_text);
+
+    buy_now_link.appendChild(buy_now_text);
+    buy_now.appendChild(buy_now_link);
 
 
     satin_dress_lace_image_section.appendChild(satin_dress_lace_image_container);
@@ -53,7 +65,7 @@ for(let i = 0; i < no_of_satin_dress_lace_images; i++){
 }
 
 
-alert("hi");
+// alert("hi");
 
 let noOfSatinDressLaceDivs = document.getElementsByClassName(
   "satin_dress_lace_image_container"

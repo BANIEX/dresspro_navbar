@@ -1,10 +1,12 @@
-no_of_mini_skirts_images = 36;
+const no_of_mini_skirts_images = 36;
+const whatsapp_phone_number = '+2347039999740'
+
 
 
 let mini_skirts_image_section = document.getElementsByClassName("mini_skirts_image_section")[0];
 
 
-for(let i = 0; i < no_of_mini_skirts_images; i++){
+for(let i = 1; i <= no_of_mini_skirts_images; i++){
         
     let mini_skirts_image_container = document.createElement("div");
     mini_skirts_image_container.id = `mini_skirts_image_container${i}`;
@@ -21,8 +23,12 @@ for(let i = 0; i < no_of_mini_skirts_images; i++){
     let image_identity = document.createElement("div");
     image_identity.id = `image_identity${i}`;
     image_identity.className = 'image_identity';
+    //
 
-    let image_identity_text = document.createTextNode(`IMS10-${i}`);
+
+    let image_ID = `MS10${i}`
+
+    let image_identity_text = document.createTextNode(image_ID);
 
     image_identity.appendChild(image_identity_text);
 
@@ -30,10 +36,18 @@ for(let i = 0; i < no_of_mini_skirts_images; i++){
     buy_now.id = `buy_now${i}`;
     buy_now.className = `buy_now`;
 
+
+    let buy_now_link = document.createElement('a')
+    buy_now_link.href =  `http://wa.me/${whatsapp_phone_number}?text=Hi, I'm interested in purchasing this product with ID: ${image_ID} `
+                  
+
     let buy_now_text = document.createTextNode("BUY NOW");
 
-    buy_now.appendChild(buy_now_text);
 
+    buy_now_link.appendChild(buy_now_text);
+    buy_now.appendChild(buy_now_link);
+
+//
 
     mini_skirts_image_section.appendChild(mini_skirts_image_container);
     mini_skirts_image_container.appendChild(mini_skirts_image);
@@ -53,7 +67,7 @@ for(let i = 0; i < no_of_mini_skirts_images; i++){
 }
 
 
-alert("hi");
+// alert("hi");
 
 let noOfMiniSkirtsDivs = document.getElementsByClassName(
   "mini_skirts_image_container"
